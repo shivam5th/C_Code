@@ -1,0 +1,15 @@
+--2018-07-26 16:03:02--  http://wnzvrqryvirelv.com/tuname.php?z=26102
+Resolving wnzvrqryvirelv.com (wnzvrqryvirelv.com)... 78.140.181.188, 78.140.181.169
+Connecting to wnzvrqryvirelv.com (wnzvrqryvirelv.com)|78.140.181.188|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://wnzvrqryvirelv.com/tuname.php?z=26102&vdu78 [following]
+--2018-07-26 16:03:03--  http://wnzvrqryvirelv.com/tuname.php?z=26102&vdu78
+Reusing existing connection to wnzvrqryvirelv.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/javascript]
+Saving to: ‘tuname.php?z=26102’
+
+tuname.php?z=26102                      [<=>                                                               ]       0  --.-KB/s               tuname.php?z=26102                      [ <=>                                                              ]   2.16K  --.-KB/s    in 0s      
+
+2018-07-26 16:03:04 (39.3 MB/s) - ‘tuname.php?z=26102’ saved [2213]
+

