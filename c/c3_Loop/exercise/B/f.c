@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main()
 {
 	int sticks = 21, upick, cpick;
