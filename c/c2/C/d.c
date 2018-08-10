@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main()
 {
     		int yr, ref_yr=2001, diff, lpyr, nmyr, td, day;
