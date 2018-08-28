@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+	int i, j, space;
+	
+	for(i=1; i<=4; i++)
+	{
+		for(space=1 ; space<=j ; j++ )
+		{
+			for(j=1 ; j <= i ; ++j)
+			{	
+				printf("%d", i);
+				i++;
+			}
+
+		}
+		printf("\n");
+    }
+    return 0;
+}
