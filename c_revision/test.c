@@ -7,7 +7,7 @@ int main()
 	int temp = -1;
 
 	fs = fopen("fromcpy.txt", "r");
-	ft = fopen("letsok.txt", "w");
+	ft = fopen("output.txt", "w");
 	
 	while(ch != EOF)
 	{
