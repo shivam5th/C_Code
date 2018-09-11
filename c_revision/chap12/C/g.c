@@ -8,17 +8,17 @@ int main()
 
 	fp = fopen("replace.txt", "r");
 	
-	if(s == NULL)
+	if(fp == NULL)
 	{
-		putc("Cannot open the file");	
+		puts("Cannot open the file");	
 		exit(1);
 	}
 
 	ft = fopen("newafterreplaced.txt", "w");
 
-	if(s == NULL)
+	if(fp == NULL)
 	{
-		putc("Cannot open the file");
+		puts("Cannot open the file");
 		exit(2);	
 	}
 	while(fscanf(fp, "%s", s) != EOF)
