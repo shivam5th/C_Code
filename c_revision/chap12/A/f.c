@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stddef.h>
 
 int main()
 {
@@ -7,14 +6,14 @@ int main()
 	char names[20];
 	int i;
 
-	fp = fopen("students.dat", "wb");
+	fp = fopen("amit.txt", "w");
 
 	for(i=0; i<=10; i++)
 	{
 		puts("\nEnter name:");	
-		gets(names);
+		scanf("%s", names);
 
-		fwrite(names, size_t(names), 1, fp);
+		fwrite(names, sizeof (names),1, fp);
 	}
 	close(fp);
 	return 0;

@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
 	FILE *fp;
-	char ch;
+	char c;
 
 	fp = fopen("fromcpy.txt", "r");
 
@@ -12,12 +13,8 @@ int main()
 		puts("Cannot open the file");	
 		exit(1);
 	}
-	while((ch = getc(fp)) != EOF);
-	{
-		printf("%c", ch);	
-	}
-		fclose(fp);
-		printf("\n");
-
+	while((c = getc(fp)) != EOF)
+		putchar(c);		
+	fclose(fp);
 	return 0;
 }
