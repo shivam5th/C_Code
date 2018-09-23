@@ -1,0 +1,40 @@
+PHP is a server side scripting language used by many popular CMS and blog platforms like WordPress and Drupal. It is also part of the popular LAMP and LEMP stacks.
+Updating the PHP configuration settings is a common task when setting up a PHP-based website. Locating the exact PHP configuration file may not be easy. 
+There are multiple installations of PHP running normally on a server, and each one has its own configuration file.
+Knowing which file to edit and what the current settings are can be a bit of a mystery.You can review the live PHP configuration by placing a page with a phpinfo function along 
+with your weibsite files.To create a file with this command, first change into the directory that contains your website files. 
+For example, the default directory for webpage files for Apache on Ubuntu 14.04All the commands in this tutorial should be run as a non-root user.
+Chup kore bela tumi suncho. sakri ta mai peye gesi..bela nbose tumi ki suncho. Din na deke bela ke ekbaar. Hello 2441139, hello 2441139.
+Chup kore bela tumi suncho. sakri ta mai peye gesi..bela nbose tumi ki suncho. Din na deke bela ke ekbaar. Hello 2441139, hello 2441139.Tddddddllnkknknkn'
+
+
+fffffffffffffffffffff
+
+f
+
+fffffffffffffffff
+ffffffgg
+ggggggggggg
+fddddddddddddd
+Chup kore bela tumi suncho. sakri ta mai peye gesi..bela nbose tumi ki suncho. Din na deke bela ke ekbaar. Hello 2441139, hello 2441139.Tddddddllnkknknkn'
+
+
+fffffffffffffffffffff
+
+f
+
+fffffffffffffffff
+ffffffgg
+ggggggggggg
+fddddddddddddd
+Chup kore bela tumi suncho. sakri ta mai peye gesi..bela nbose tumi ki suncho. Din na deke bela ke ekbaar. Hello 2441139, hello 2441139.Tddddddllnkknknkn'
+
+
+fffffffffffffffffffff
+
+f
+
+fffffffffffffffff
+ffffffgg
+ggggggggggg
+fddddddddddddd
