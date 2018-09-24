@@ -14,12 +14,12 @@ int main()
 			for (j = 1; j <= 90; j++) {
 				if (i == 1 || i == 30 || j == 1 || j == 90) {
 					printf("*");
-				} else if((s = fgetc(fs)) != EOF) {
-					if (i == 2) {
-						printf("%-80sPage %-3d", fname, ++page);
+				} else if (i == 2) {
+					printf("%-80sPage %-3d", fname, ++page);
 					printf("*");
 					break;
-					}
+				} else if((s = fgetc(fs)) != EOF) {
+					
 					if (s == '\n') {
 
 						for (int k = 0; k <= 89 - j; ++k)
