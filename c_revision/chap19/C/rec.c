@@ -17,7 +17,7 @@ int main()
 				} else if (i == 2) {
 					printf("%-80sPage %-3d", fname, ++page);
 					printf("*");
-					break;
+				break;
 				} else if((s = fgetc(fs)) != EOF) {
 					
 					if (s == '\n') {
