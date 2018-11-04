@@ -11,7 +11,7 @@ int main()
 	z = 20.00/100*x;
 	sum = x+y+z;
 	
-	printf("Dearness allowance is: %f\n", y);
-	printf("House Rent Allowance: %f\n", z);
+	printf("Dearness allowance is: %.2f\n", y);
+	printf("House Rent Allowance: %.2f\n", z);
 	printf("Gross salary is: %f\n", sum);
 }
